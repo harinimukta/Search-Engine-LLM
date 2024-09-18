@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Harini2000:$HF_TOKEN@huggingface.co/spaces/Harini2000/Search-Engine-LLM main
+        run: git push https://Harini2000:$HF_TOKEN@huggingface.co/spaces/Harini2000/Search_Engine_LLM main
